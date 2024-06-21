@@ -224,7 +224,6 @@ h1, h2, h3, h4, h5, h6 {
 .video {
     box-sizing: border-box;
     margin: 0;
-    padding-bottom: 100px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -238,10 +237,12 @@ h1, h2, h3, h4, h5, h6 {
 .video__button {
     position: absolute;
     margin: 0;
-    top: 250px;
-    right: 910px;
-    bottom: 250px;
-    left: 910px;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    background: none;
+    border: none;
+
 }
 
 /*video*/
@@ -253,6 +254,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 50px;
     background: var(--color-accent);
     color: var(--color-contrast);
+    margin-top: 100px;
 }
 
 .footer__name {
